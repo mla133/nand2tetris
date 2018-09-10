@@ -1,0 +1,22 @@
+// This file is from fig 4.2 of manual
+
+	@i
+	M=1
+	@sum
+	M=0
+	@i
+	D=M
+	@10
+	D=D-A
+	@END
+	D;JGT
+	@i
+	D=M
+	@sum
+	M=D+M
+	@i
+	M=M+1
+	@LOOP
+	0;JMP
+	@END
+	0;JMP
