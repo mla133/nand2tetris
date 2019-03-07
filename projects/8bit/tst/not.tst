@@ -3,9 +3,9 @@
 // by Nisan and Schocken, MIT Press.
 // File name: projects/01/Not.tst
 
-load Not.hdl,
-output-file Not.out,
-compare-to Not.cmp,
+load not.hdl,
+output-file not.out,
+compare-to not.cmp,
 output-list in%B3.1.3 out%B3.1.3;
 
 set in 0,
