@@ -3,9 +3,9 @@
 // by Nisan and Schocken, MIT Press.
 // File name: projects/01/Or.tst
 
-load Or.hdl,
-output-file Or.out,
-compare-to Or.cmp,
+load or.hdl,
+output-file or.out,
+compare-to or.cmp,
 output-list a%B3.1.3 b%B3.1.3 out%B3.1.3;
 
 set a 0,
