@@ -1,11 +1,11 @@
 // This file is part of www.nand2tetris.org
 // and the book "The Elements of Computing Systems"
 // by Nisan and Schocken, MIT Press.
-// File name: projects/01/Mux.tst
+// File name: projects/8bit/mux.tst
 
-load Mux.hdl,
-output-file Mux.out,
-compare-to Mux.cmp,
+load mux.hdl,
+output-file mux.out,
+compare-to mux.cmp,
 output-list a%B3.1.3 b%B3.1.3 sel%B3.1.3 out%B3.1.3;
 
 set a 0,

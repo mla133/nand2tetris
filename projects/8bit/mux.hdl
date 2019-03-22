@@ -1,7 +1,7 @@
 // This file is part of www.nand2tetris.org
 // and the book "The Elements of Computing Systems"
 // by Nisan and Schocken, MIT Press.
-// File name: projects/01/Mux.hdl
+// File name: projects/8bit/mux.hdl
 
 /** 
  * Multiplexor:
@@ -9,10 +9,13 @@
  *       b otherwise
  */
 
-CHIP Mux {
+CHIP mux {
     IN a, b, sel;
     OUT out;
 
     PARTS:
-    // Put your code here:
+	not(in=sel, out=notsel);
+	and(a=a, b=notsel, out=selA);
+	and(a=sel, b=b, out=selB);
+	or(a=selA, b=selB, out=out);
 }
