@@ -1,0 +1,24 @@
+// This file is part of www.nand2tetris.org
+// and the book "The Elements of Computing Systems"
+// by Nisan and Schocken, MIT Press.
+// File name: projects/8bit/And8.hdl
+
+/**
+ * 8-bit bitwise And:
+ * for i = 0..7: out[i] = (a[i] and b[i])
+ */
+
+CHIP and8 {
+    IN a[8], b[8];
+    OUT out[8];
+
+    PARTS:
+	and(a=a[0], b=b[0], out=out[0]);
+	and(a=a[1], b=b[1], out=out[1]);
+	and(a=a[2], b=b[2], out=out[2]);
+	and(a=a[3], b=b[3], out=out[3]);
+	and(a=a[4], b=b[4], out=out[4]);
+	and(a=a[5], b=b[5], out=out[5]);
+	and(a=a[6], b=b[6], out=out[6]);
+	and(a=a[7], b=b[7], out=out[7]);
+}
