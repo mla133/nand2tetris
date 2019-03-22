@@ -1,11 +1,11 @@
 // This file is part of www.nand2tetris.org
 // and the book "The Elements of Computing Systems"
 // by Nisan and Schocken, MIT Press.
-// File name: projects/01/DMux.tst
+// File name: projects/8bit/dmux.tst
 
-load DMux.hdl,
-output-file DMux.out,
-compare-to DMux.cmp,
+load dmux.hdl,
+output-file dmux.out,
+compare-to dmux.cmp,
 output-list in%B3.1.3 sel%B3.1.3 a%B3.1.3 b%B3.1.3;
 
 set in 0,
