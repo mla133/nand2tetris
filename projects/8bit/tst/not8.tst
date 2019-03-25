@@ -1,29 +1,29 @@
 // This file is part of www.nand2tetris.org
 // and the book "The Elements of Computing Systems"
 // by Nisan and Schocken, MIT Press.
-// File name: projects/01/Not16.tst
+// File name: projects/8bit/not8.tst
 
-load Not16.hdl,
-output-file Not16.out,
-compare-to Not16.cmp,
-output-list in%B1.16.1 out%B1.16.1;
+load not8.hdl,
+output-file not8.out,
+compare-to not8.cmp,
+output-list in%B1.8.1 out%B1.8.1;
 
-set in %B0000000000000000,
+set in %B00000000,
 eval,
 output;
 
-set in %B1111111111111111,
+set in %B11111111,
 eval,
 output;
 
-set in %B1010101010101010,
+set in %B10101010,
 eval,
 output;
 
-set in %B0011110011000011,
+set in %B11000011,
 eval,
 output;
 
-set in %B0001001000110100,
+set in %B00110100,
 eval,
 output;
