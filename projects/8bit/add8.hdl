@@ -1,0 +1,17 @@
+// This file is part of www.nand2tetris.org
+// and the book "The Elements of Computing Systems"
+// by Nisan and Schocken, MIT Press.
+// File name: projects/8bit/add8.hdl
+
+/**
+ * Adds two 8-bit values.
+ * The most significant carry bit is ignored.
+ */
+
+CHIP add8 {
+    IN a[8], b[8];
+    OUT out[8];
+
+    PARTS:
+   // Put you code here:
+}
